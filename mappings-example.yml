@@ -1,0 +1,11 @@
+path: /full/path/to/project/directory
+files:
+ - src: source_file
+   dst: dst_file
+text:
+ - file: source_file
+   text: sometext
+   replace: replacement_text
+exclude:
+ - file1
+ - file2
