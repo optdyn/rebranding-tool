@@ -1,0 +1,30 @@
+path: /full/path/to/project/directory
+files:
+ - src: subutai/android-chrome-192x192.png
+   dst: web/share/android-chrome-192x192.png
+ - src: subutai/apple-touch-icon.png
+   dst: web/share/apple-touch-icon.png
+ - src: subutai/favicon-16x16.png
+   dst: web/share/favicon-16x16.png
+ - src: subutai/favicon-32x32.png
+   dst: web/share/favicon-32x32.png
+text:
+ - file: /web/ipmi/index.html
+   text: Pi
+   replace: Subutai 
+ - file: /web/login/index.html
+   text: Pi
+   replace: Subutai 
+ - file: /web/kvm/index.html
+   text: Pi
+   replace: Subutai
+ - file: /web/kvm/index.html
+   text: pikvm.org 
+   replace: subutai.io
+ - file: /web/index.html
+   text: Pi
+   replace: Subutai
+ - file: /web/index.html
+   text: pikvm.org 
+   replace: subutai.io
+exclude:
