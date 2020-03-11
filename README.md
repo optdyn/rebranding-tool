@@ -1,6 +1,8 @@
 Rebranding tool
 ===============
 
+This tools requires `pyyaml` package.
+
 Replaces files and text inside files. Example layout file is in `mappings-example.yml`. Start by renaming this file to `mappings.yml` and changing
 path inside to the real destination path (where target project resides).
 
@@ -21,3 +23,5 @@ Define text files that have text that needs to be replaced in `text:` section of
 * `replace` - replacement text
 
 Exclude files that need to be excluded by defining them in `exclude:` section
+
+To run, simply execute `python replace.py`
